@@ -17,17 +17,17 @@ open the installer when it downloads and click through to install (press cintinu
 8. close the terminal and open it again. Right-click on the terminal icon at the bottom of the screen and click quit - dont just close and open it.
 9. Navigate to the ldsc folder again
 `cd Desktop/ldsc`
-10. type the following commands. after each, press enter and wait for it to finish installing. you will know it has finished installing when there is a line at the bottom of the terminal window that ends in a `%` and a rectangle indicating that you can type a new command`
-`python2 -m pip install virtualenv`
-`python2 -m virtualenv myenv`
-`source myenv/bin/activate`
-`pip install numpy`
-`pip install bitarray`
-`pip install pandas`
-`pip install scipy`
-`mv sumstats ./ldsc`
-`mv myfiles ./ldsc`
-`mv results ./ldsc`
+10. type the following commands. after each, press enter and wait for it to finish installing. you will know it has finished installing when there is a line at the bottom of the terminal window that ends in a `%` and a rectangle indicating that you can type a new command
+`python2 -m pip install virtualenv`\
+`python2 -m virtualenv myenv`\
+`source myenv/bin/activate`\
+`pip install numpy`\
+`pip install bitarray`\
+`pip install pandas`\
+`pip install scipy`\
+`mv sumstats ./ldsc`\
+`mv myfiles ./ldsc`\
+`mv results ./ldsc`\
 11. You can't do the next step if your sumstats aren't in a text file format with the right headings. You can check this by going into the file explorer and right clicking on your sumstats file, clicking 'open with' and 'TextEdit'. You will need the following headings:
 - A unique identifier (e.g., the rs number) -> call it SNPid
 This may be called SNP, variant, RSID, rs etc. 
