@@ -7,10 +7,6 @@
 4. download the ldsc files
 `git clone https://github.com/bulik/ldsc`
 5. Put the reference files in the new ldsc folder that has been created. You will have a folder called 'ldsc' on your desktop now, and within that folder is another folder called 'ldsc'. Put the files in the second folder.  
-6. install anaconda from this website: https://www.anaconda.com/download
-You will need to choose the correct installer for your type of mac - either intel or M1/M2
-You can find out which you have by clicking the apple in the top left of your screen and clicking 'about this mac' - there you can see which type of chip you have by whether it says M1, M2 or intel
-Once you have installed Anaconda, it will open. You can just close that straight away
 7. Install python2.7 from this website: - https://www.python.org/downloads/release/python-2718/
 click `macOS 64-bit installer`
 open the installer when it downloads and click through to install (press cintinue, install and agree)
